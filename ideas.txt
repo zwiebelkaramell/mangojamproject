@@ -1,0 +1,141 @@
+goofy literal space cowboy theme
+
+player is a lighthouse keeper
+
+gamplay involves completing mundane tasks
+
+lighthouse is giant, used so space cowboys don't crash into the planet
+
+theme of bringing color to the world
+
+giant space horse (space horses are bigger than regular horses)
+
+monotone desert (visually prove it's a desert and not a moon by adding a single cactus)
+
+there are things in the desert (ENA like), they do not need to make sense
+
+hoverboards for horses (so they don't get tired)
+
+
+CHARACTERS:
+
+	MC
+		complete homebody, has never been outside the lighthouse
+		illiterate, cannot read
+		
+
+	old prospector
+
+	sherrif
+
+	lady who faints
+		might be a man who faints
+
+	horse; the horse
+		speaks in horse jokes
+			"why the long face"
+			"how hungry?"
+
+	cactus
+		mexican
+		you can talk to him once, and then he runs away
+
+	google chrome dinosaur character
+
+	cowboy fish (red herring) finbo jones
+		brother of acclaimed man of mystery, jimbo jones
+		highly detailed belt buckle, he is excited to show you it.
+
+	barkeep
+		scorpion / tequila worm
+		he is buff (self conscious about it)
+
+	clown gunfighter (extremely serious character)
+		serious, normal name (wyatt murdock?)
+		makes clown noises when he walks
+		is a very serious character, but unintentionally makes jokes
+
+	hillbilly moonshiner
+		moonshine is literally made out of the moon
+
+	snake oil salesman / crazy inventor
+		has two models that flip depending on what personality is present
+
+	silent film actor (like charlie caplain)
+		custom textbox that looks like the dialogue in a silent film
+
+
+MAIN STORY:
+	MC a lighthouse keeper bored at his monotonous job
+	lighthouse bulb is busted, one of a kind
+	there is no replacement 
+	the bulb has the name of the inventor on in, but the MC is illiterate
+	quest to find who invented the bulb
+	meet colorful characters, make incremental progress to discover who made the bulb
+	need to meet the right inventor
+
+
+DECISION TREE:
+
+	end game early:
+		you give up, bad ending
+
+	continue:
+		quest to find the bulb
+
+		chose the wrong inventor:
+			game over, bad ending
+
+		find the right inventor:
+			good ending
+
+
+ART DIRECTION:
+
+	two sprites for each character, close-up is a trace of a photograph, normal is a drawing
+		use juxtapositoin between these for comedic effect
+	
+	monotone landscape, as more characters are brought in we add more color
+
+	"that's all folks" style end screen
+		"FIN" but not french, finbo jones is there
+	
+
+
+jobs for weeb:
+	menus where you mouse over objects, they obtain color
+	
+	background with planets that orbit
+
+	mundane task minigames
+		make coffee
+		walk up the stairs
+		refill the lighthouse
+		paint it
+		tie your shoes
+		grocery shopping
+
+	figure out how to make text scrolling noises	
+		make them contextual
+
+	stretch goal:
+		stylized nametag for fishbo jones:
+		```
+			 j
+		fishbo
+		     n
+			 e
+			 s
+		```
+
+Art assets we need:
+	world screen, with planets
+
+	two character portraits, a trace and a normal one
+		8-10 characters
+			alt art for emotions
+
+	backgrounds
+		main world
+		saloon
+		inventor's shack
