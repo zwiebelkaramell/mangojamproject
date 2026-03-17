@@ -3,30 +3,30 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+init python:
+    def text_trick(event, interact=True, **kwargs):
+        if not interact:
+            return
+        
+        if event == "show":
+            renpy.music.set_volume(0.02, channel="sound")
+            renpy.music.play('audio/typing.wav', channel="sound")
+        elif event == "slow_done" or event == "end":
+            renpy.music.stop(channel="sound")
+
+define fj = Character("Fishbo Jones", callback=text_trick)
 
 
 # The game starts here.
 
 label start:
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    show fishbo_jones trace
 
-    show eileen happy
+    fj "you think i'm funny?"
 
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    fj "what am i, a clown to you?"
 
     # This ends the game.
 
