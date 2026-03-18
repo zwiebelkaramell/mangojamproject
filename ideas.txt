@@ -109,11 +109,59 @@ jobs for weeb:
 
 	mundane task minigames
 		make coffee
-		walk up the stairs
-		refill the lighthouse
-		paint it
 		tie your shoes
 		grocery shopping
+		play piano in the saloon
+
+		play games in the saloon
+		dating sim?
+		get drunk
+		eat food
+		
+
+	minigame specific mechanics:
+
+		coffee:
+			add coffee to filter:
+				more button
+				fail if you add too much
+			heat pot on stove
+				knob you can turn
+				pot steams when it's hot enough
+				runs out of steam when done, makes different noise
+				fail if you let it run dry for too long
+				success if you turn it off
+			pour coffee
+				press button to pour
+				auto complete if in fullness threshold when on buttonup event
+				fail if overflow
+		
+		sort bookshelf:
+			organize by color:
+				drag books around
+				they snap to the shelf if they are released nearby
+					use a list
+				success when shelf is sorted
+
+		play piano:
+			get simple melodies from classic ragtime songs
+			piano made of buttons on screen, play correct note when button is pressed
+			keep a FIFO list of piano keys pressed
+			success when list matches the melody of the songs
+			need not be in time.
+			makes money
+
+		get drunk:
+			(maybe)
+			simple filter over screen for certain time
+			can sober up by making coffee
+			costs money
+
+		
+
+
+
+
 
 	figure out how to make text scrolling noises	
 		make them contextual

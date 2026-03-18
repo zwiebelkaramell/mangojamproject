@@ -1,0 +1,35 @@
+
+
+intro scene:
+    planet animation thing
+    show our setting 
+    give a little explaination of the world
+    cut to our room
+
+    1st mundane task
+    lightbulb breaks
+
+    have to go outside
+
+overworld:
+    point and click desert environment
+    hub where all characters can be found
+
+    can get bad ending right away if you buy a shitty lightbulb from a snake oil salesman
+
+    find information about lightbulb
+        -find someone who can read
+        -find someone who recognizes the name
+        -get someone who the inventor trusts to convince him to help you
+    
+    saloon
+        after we befriend someone, they show up here
+        can find them there if you talk to them out of sequence
+        piano minigame?
+
+
+ending:
+    man puts in lightbulb, game over.
+    no fanfare
+    
+    
