@@ -1,0 +1,139 @@
+(Finbo Jones walks for a while before he spots two men laying on the ground next to a wagon which is carrying a lot of boxes filled with bottles, he chooses to approach them slowly.
+One of them is very short but wide, he has no hair on his head but a long neckbeard, his way too large hat next to him on the ground. The other one is tall but very thin, he has long strawy hair and a big moustache
+but no beard, he is slightly leaning on the wagon, most of his body laying on the ground, too, his hat is small and on his head)
+
+FJ: "Howdy misters, are ya alive?"
+
+Tall man: "Huh who what, nuts n beans! Oh howdydoodledo mista, Tally wake up!"
+
+Small man: "crackers n beer, what is it Tiny? Oh, hello there mista what bring ya here?"
+
+FJ: "Saw you lots laying around was wonderin if sumthin happened?"
+
+Tally: "Hyahyahya mista you be a fun folk"
+
+Tiny: "fun folk ayhayhayh"
+
+FJ: "What's with all them bottles?"
+
+Tally: "Oh mista, dat be the good stuff"
+
+Tiny: "The good stuff ayhayhayh!"
+
+Tally: "Stopit Tiny, so mista wanna try sum hyahya? Is goooood"
+
+Tiny: "so goood ayhayhayh"
+
+FJ: "Is that some sorta booze?"
+
+Tally: "It be some booze alright, the bestest, first try is free"
+
+Tiny: "Da best yes, try, try"
+
+
+
+[2- 3 choices here? 
+ 
+ 1. try moonshine, unconcious, get robbed, never see them again
+
+ 2. don't try it, upset moonshiners they don't talk to you again, just tell you to leave them alone
+
+ 3. outsmart them by pretending to drink, leads to them befriending as they think you can handle it, you give them a tip to try to sell their moonshine to the saloon, you met them there
+    later ]
+
+
+{Choice 1:}
+
+FJ "What gives, can't hurt right?"
+
+(Finbo Jones takes one bottle that Tally hands him, after taking a sip he starts feeling really weird and everything starts spinning, before he collapses he can hear the moonshiners last
+words)
+
+Tally: "We got us'n'other one Tiny hyahyahya"
+
+Tiny: "another one, another one!"
+
+Tally: "let's take his stuffs beat the bush"
+
+Tiny: "take take bush"
+
+(Finbo Jones wakes up hours later with all his stuff but the bulb gone, where once the wagon was standing only one mere empty bottle is left, Finbo Jones has no choice but to continue his
+journey like this)
+
+
+
+{Choice 2:}
+
+FJ: "I dunno misters, am on a task, gotta find someone who can do da readin"
+
+Tally: "Come on mista, just one swig's'all we askin for"
+
+Tiny: "One swig, one swig"
+
+FJ: "I think am good"
+
+Tally: "Hell's Bell's rude mista, you be tryin or not?"
+
+Tiny: "rude rude"
+
+FJ: "I will be goin now, you lot have a good day"
+
+Tally: "Don't be showing yar possum face round here no more!"
+
+Tiny: "No more!"
+
+Tally: "shut yar trap Tiny! come on now"
+
+(So Finbo Jones leaves them behind before things escelate and continues his search)
+
+[If you come back after this Choice they will not talk to you, their dialogue will be (...)]
+
+
+
+{Choice 3:}
+
+FJ: "Alright then, you've convinced me, you two rascals, gimme one of dem bottles, what is it anyways?"
+
+Tally: "It ma and ma brothas selfmade finest mooshine ya see, good good stuffs"
+
+Tiny: "Good good stuffs"
+
+FJ: "Sounds....good" (pretends to take a swig but spits it out when they are not looking)
+
+Tally: "Huuuuh?! you good mista?"
+
+FJ: "That stuff is pretty good"
+
+Tally: "Tiny look, mista did not fall'sleep, he can handle it"
+
+Tiny: "can handle it"
+
+(They both dance weirdly in joy)
+
+Tally: "Mista can handle it good, wants more? Take them bottles!"
+
+Tiny: "Take em, take em!"
+
+FJ: "You know, this might be worth a fortune, if ya sell it to some saloon" [dialogue stays like this if not been to saloon yet, if have been to saloon, can recommend to them here]
+
+Tally: "Mista thats a mighty fein idea! Tiny come, let's take em to da saloon!"
+
+Tiny: "Saloon!"
+
+Tally: "Here, for ya mista, take em, free. Les go Tiny!" (hands Finbo 2 bottles of moonshine)
+
+FJ: "Adios you lots"
+
+(The moonshiners leave hastily with their wagon, Finbo Jones sensing that he avoided some trouble makes his way back to his search)
+
+
+[Later can encounter the moonshiners in saloon after this encounter]
+
+
+
+{After choice 3 saloon encounter}
+
+
+
+
+
