@@ -106,6 +106,21 @@ jobs for weeb:
 	menus where you mouse over objects, they obtain color
 	
 	background with planets that orbit
+		holy shit this is hard wtf
+		potential solutions:
+			mess with the renpy engine to allow python code execution inside transformations (hard)
+			manually map the points of the ellipse into a transformation using a ton of linear movements, to approximate and ellipse(pain in the ass)
+				!!! potentially could write a script that writes a transform i can copy paste into renpy (stupid, but maybe fun)
+					def transform_parser(int point_num, int x, int y, int height, int width, int anim_time):
+						{
+							step_len = (2*math.pi())/point_num
+							step_total = 0
+							for x in point_num:
+								ellipse(x, y, height, width)
+								step_total += step_len
+						}
+			animate the planet movement in another program, take a video, and play that in renpy
+
 
 	mundane task minigames
 		make coffee
