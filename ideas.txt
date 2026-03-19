@@ -160,6 +160,16 @@ jobs for weeb:
 		
 
 
+piano melodies:
+	
+	maple leaf rag:
+	[G#4, D#4, G#4, C4, D#4, G#4, D#4, G#4, C4, D#4]
+
+	the entertainer:
+	[D4, D#4, E4, C5, E4, C5, E4, C5]
+
+	athlete's rag:
+	[A4, C4, G3, A4, C4, C4, A4, G3, C4, C4, G4, E4, D4]
 
 
 
