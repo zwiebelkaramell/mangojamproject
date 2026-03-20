@@ -54,6 +54,55 @@ image mocapot = Image("images/Objects/Mocapot/mocapot.png")
 
 #---------------- TRANSFORMS -------------------------------------------
 
+transform ellipse_blue:
+    linear 0.0 xalign 0.5 yalign 0.5 xoffset 100 yoffset 0
+    block:
+        linear 1.0 xoffset 95 yoffset 30
+        linear 1.0 xoffset 80 yoffset 58
+        linear 1.0 xoffset 58 yoffset 80
+        linear 1.0 xoffset 30 yoffset 95
+        linear 1.0 xoffset 0 yoffset 100
+        linear 1.0 xoffset -30 yoffset 95
+        linear 1.0 xoffset -58 yoffset 80
+        linear 1.0 xoffset -80 yoffset 58
+        linear 1.0 xoffset -95 yoffset 30
+        linear 1.0 xoffset -100 yoffset 0
+        linear 1.0 xoffset -95 yoffset -30
+        linear 1.0 xoffset -80 yoffset -58
+        linear 1.0 xoffset -58 yoffset -80
+        linear 1.0 xoffset -30 yoffset -95
+        linear 1.0 xoffset 0 yoffset -100
+        linear 1.0 xoffset 30 yoffset -95
+        linear 1.0 xoffset 58 yoffset -80
+        linear 1.0 xoffset 80 yoffset -58
+        linear 1.0 xoffset 95 yoffset -30
+        linear 1.0 xoffset 100 yoffset 0
+        repeat
+
+transform ellipse_moon:
+    linear 0.0 xalign 0.5 yalign 0.5 xoffset 100 yoffset 0
+    block:
+        linear 1.0 xoffset 95 yoffset 30
+        linear 1.0 xoffset 80 yoffset 58
+        linear 1.0 xoffset 58 yoffset 80
+        linear 1.0 xoffset 30 yoffset 95
+        linear 1.0 xoffset 0 yoffset 100
+        linear 1.0 xoffset -30 yoffset 95
+        linear 1.0 xoffset -58 yoffset 80
+        linear 1.0 xoffset -80 yoffset 58
+        linear 1.0 xoffset -95 yoffset 30
+        linear 1.0 xoffset -100 yoffset 0
+        linear 1.0 xoffset -95 yoffset -30
+        linear 1.0 xoffset -80 yoffset -58
+        linear 1.0 xoffset -58 yoffset -80
+        linear 1.0 xoffset -30 yoffset -95
+        linear 1.0 xoffset 0 yoffset -100
+        linear 1.0 xoffset 30 yoffset -95
+        linear 1.0 xoffset 58 yoffset -80
+        linear 1.0 xoffset 80 yoffset -58
+        linear 1.0 xoffset 95 yoffset -30
+        linear 1.0 xoffset 100 yoffset 0
+        repeat
 #-----------------------------------------------------------------------
 
 # The game starts here.
@@ -84,9 +133,10 @@ label start:
 
 label menu_test:
     show bg_space
-    show sun
-    show blue_orb
-    show moon
+    show sun:
+        xalign 0.5 yalign 0.5
+    show blue_orb at ellipse_blue
+    show moon at ellipse_moon
     "Space..."
     return
 
