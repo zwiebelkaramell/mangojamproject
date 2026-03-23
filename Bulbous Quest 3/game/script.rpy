@@ -65,40 +65,41 @@ image orbit:
     contains: # behind planet-moon
         pause 15.0
         contains: # moon behind
-            pause 15.0
+            pause 7.5
             "images/planet_scene/moon.png"
-            xalign 0.5 yalign 0.5 xoffset 440 yoffset 0
+            xalign 0.5 yalign 0.5 xoffset -100 yoffset 0
 
-            linear 0.5 xoffset 437 yoffset 11
-            linear 0.5 xoffset 430 yoffset 22
-            linear 0.5 xoffset 418 yoffset 33
-            linear 0.5 xoffset 401 yoffset 44
-            linear 0.5 xoffset 381 yoffset 54
-            linear 0.5 xoffset 355 yoffset 64
-            linear 0.5 xoffset 326 yoffset 73
-            linear 0.5 xoffset 294 yoffset 81
-            linear 0.5 xoffset 258 yoffset 88
-            linear 0.5 xoffset 219 yoffset 95
-            linear 0.5 xoffset 178 yoffset 100
-            linear 0.5 xoffset 135 yoffset 104
-            linear 0.5 xoffset 91 yoffset 107
-            linear 0.5 xoffset 45 yoffset 109
-            linear 0.5 xoffset 0 yoffset 110
-            linear 0.5 xoffset -45 yoffset 109
-            linear 0.5 xoffset -91 yoffset 107
-            linear 0.5 xoffset -135 yoffset 104
-            linear 0.5 xoffset -178 yoffset 100
-            linear 0.5 xoffset -219 yoffset 95
-            linear 0.5 xoffset -258 yoffset 88
-            linear 0.5 xoffset -294 yoffset 81
-            linear 0.5 xoffset -326 yoffset 73
-            linear 0.5 xoffset -355 yoffset 64
-            linear 0.5 xoffset -381 yoffset 54
-            linear 0.5 xoffset -401 yoffset 44
-            linear 0.5 xoffset -418 yoffset 33
-            linear 0.5 xoffset -430 yoffset 22
-            linear 0.5 xoffset -437 yoffset 11
-            linear 0.5 xoffset -440 yoffset 0
+            linear 0.25 xoffset -99 yoffset -2
+            linear 0.25 xoffset -97 yoffset -5
+            linear 0.25 xoffset -95 yoffset -7
+            linear 0.25 xoffset -91 yoffset -10
+            linear 0.25 xoffset -86 yoffset -12
+            linear 0.25 xoffset -80 yoffset -14
+            linear 0.25 xoffset -74 yoffset -16
+            linear 0.25 xoffset -66 yoffset -18
+            linear 0.25 xoffset -58 yoffset -20
+            linear 0.25 xoffset -49 yoffset -21
+            linear 0.25 xoffset -40 yoffset -22
+            linear 0.25 xoffset -30 yoffset -23
+            linear 0.25 xoffset -20 yoffset -24
+            linear 0.25 xoffset -10 yoffset -24
+            linear 0.25 xoffset 0 yoffset -25
+            linear 0.25 xoffset 10 yoffset -24
+            linear 0.25 xoffset 20 yoffset -24
+            linear 0.25 xoffset 30 yoffset -23
+            linear 0.25 xoffset 40 yoffset -22
+            linear 0.25 xoffset 49 yoffset -21
+            linear 0.25 xoffset 58 yoffset -20
+            linear 0.25 xoffset 66 yoffset -18
+            linear 0.25 xoffset 74 yoffset -16
+            linear 0.25 xoffset 80 yoffset -14
+            linear 0.25 xoffset 86 yoffset -12
+            linear 0.25 xoffset 91 yoffset -10
+            linear 0.25 xoffset 95 yoffset -7
+            linear 0.25 xoffset 97 yoffset -5
+            linear 0.25 xoffset 99 yoffset -2
+            linear 0.25 xoffset 100 yoffset 0
+
             Null()
             repeat
         contains: # planet
@@ -106,40 +107,41 @@ image orbit:
             xalign 0.5 yalign 0.5
         contains: # moon infront
             "images/planet_scene/moon.png"
-            xalign 0.5 yalign 0.5 xoffset -440 yoffset 0
+            xalign 0.5 yalign 0.5 xoffset 100 yoffset 0
 
-            linear 0.5 xoffset -437 yoffset -11
-            linear 0.5 xoffset -430 yoffset -22
-            linear 0.5 xoffset -418 yoffset -33
-            linear 0.5 xoffset -401 yoffset -44
-            linear 0.5 xoffset -381 yoffset -55
-            linear 0.5 xoffset -355 yoffset -64
-            linear 0.5 xoffset -326 yoffset -73
-            linear 0.5 xoffset -294 yoffset -81
-            linear 0.5 xoffset -258 yoffset -88
-            linear 0.5 xoffset -219 yoffset -95
-            linear 0.5 xoffset -178 yoffset -100
-            linear 0.5 xoffset -135 yoffset -104
-            linear 0.5 xoffset -91 yoffset -107
-            linear 0.5 xoffset -45 yoffset -109
-            linear 0.5 xoffset 0 yoffset -110
-            linear 0.5 xoffset 45 yoffset -109
-            linear 0.5 xoffset 91 yoffset -107
-            linear 0.5 xoffset 135 yoffset -104
-            linear 0.5 xoffset 178 yoffset -100
-            linear 0.5 xoffset 219 yoffset -95
-            linear 0.5 xoffset 258 yoffset -88
-            linear 0.5 xoffset 294 yoffset -81
-            linear 0.5 xoffset 326 yoffset -73
-            linear 0.5 xoffset 355 yoffset -64
-            linear 0.5 xoffset 381 yoffset -55
-            linear 0.5 xoffset 401 yoffset -44
-            linear 0.5 xoffset 418 yoffset -33
-            linear 0.5 xoffset 430 yoffset -22
-            linear 0.5 xoffset 437 yoffset -11
-            linear 0.5 xoffset 440 yoffset 0
+            linear 0.25 xoffset 99 yoffset 2
+            linear 0.25 xoffset 97 yoffset 5
+            linear 0.25 xoffset 95 yoffset 7
+            linear 0.25 xoffset 91 yoffset 10
+            linear 0.25 xoffset 86 yoffset 12
+            linear 0.25 xoffset 80 yoffset 14
+            linear 0.25 xoffset 74 yoffset 16
+            linear 0.25 xoffset 66 yoffset 18
+            linear 0.25 xoffset 58 yoffset 20
+            linear 0.25 xoffset 49 yoffset 21
+            linear 0.25 xoffset 40 yoffset 22
+            linear 0.25 xoffset 30 yoffset 23
+            linear 0.25 xoffset 20 yoffset 24
+            linear 0.25 xoffset 10 yoffset 24
+            linear 0.25 xoffset 0 yoffset 25
+            linear 0.25 xoffset -10 yoffset 24
+            linear 0.25 xoffset -20 yoffset 24
+            linear 0.25 xoffset -30 yoffset 23
+            linear 0.25 xoffset -40 yoffset 22
+            linear 0.25 xoffset -49 yoffset 21
+            linear 0.25 xoffset -58 yoffset 20
+            linear 0.25 xoffset -66 yoffset 18
+            linear 0.25 xoffset -74 yoffset 16
+            linear 0.25 xoffset -80 yoffset 14
+            linear 0.25 xoffset -86 yoffset 12
+            linear 0.25 xoffset -91 yoffset 10
+            linear 0.25 xoffset -95 yoffset 7
+            linear 0.25 xoffset -97 yoffset 5
+            linear 0.25 xoffset -99 yoffset 2
+            linear 0.25 xoffset -100 yoffset 0
+
             Null()
-            pause 15.0
+            pause 7.5
             repeat
 
 
@@ -183,40 +185,41 @@ image orbit:
         xalign 0.5 yalign 0.5
     contains: # infront planet-moon
         contains: # moon behind
-            pause 15.0
+            pause 7.5
             "images/planet_scene/moon.png"
-            xalign 0.5 yalign 0.5 xoffset 440 yoffset 0
+            xalign 0.5 yalign 0.5 xoffset -100 yoffset 0
 
-            linear 0.5 xoffset 437 yoffset 11
-            linear 0.5 xoffset 430 yoffset 22
-            linear 0.5 xoffset 418 yoffset 33
-            linear 0.5 xoffset 401 yoffset 44
-            linear 0.5 xoffset 381 yoffset 54
-            linear 0.5 xoffset 355 yoffset 64
-            linear 0.5 xoffset 326 yoffset 73
-            linear 0.5 xoffset 294 yoffset 81
-            linear 0.5 xoffset 258 yoffset 88
-            linear 0.5 xoffset 219 yoffset 95
-            linear 0.5 xoffset 178 yoffset 100
-            linear 0.5 xoffset 135 yoffset 104
-            linear 0.5 xoffset 91 yoffset 107
-            linear 0.5 xoffset 45 yoffset 109
-            linear 0.5 xoffset 0 yoffset 110
-            linear 0.5 xoffset -45 yoffset 109
-            linear 0.5 xoffset -91 yoffset 107
-            linear 0.5 xoffset -135 yoffset 104
-            linear 0.5 xoffset -178 yoffset 100
-            linear 0.5 xoffset -219 yoffset 95
-            linear 0.5 xoffset -258 yoffset 88
-            linear 0.5 xoffset -294 yoffset 81
-            linear 0.5 xoffset -326 yoffset 73
-            linear 0.5 xoffset -355 yoffset 64
-            linear 0.5 xoffset -381 yoffset 54
-            linear 0.5 xoffset -401 yoffset 44
-            linear 0.5 xoffset -418 yoffset 33
-            linear 0.5 xoffset -430 yoffset 22
-            linear 0.5 xoffset -437 yoffset 11
-            linear 0.5 xoffset -440 yoffset 0
+            linear 0.25 xoffset -99 yoffset -2
+            linear 0.25 xoffset -97 yoffset -5
+            linear 0.25 xoffset -95 yoffset -7
+            linear 0.25 xoffset -91 yoffset -10
+            linear 0.25 xoffset -86 yoffset -12
+            linear 0.25 xoffset -80 yoffset -14
+            linear 0.25 xoffset -74 yoffset -16
+            linear 0.25 xoffset -66 yoffset -18
+            linear 0.25 xoffset -58 yoffset -20
+            linear 0.25 xoffset -49 yoffset -21
+            linear 0.25 xoffset -40 yoffset -22
+            linear 0.25 xoffset -30 yoffset -23
+            linear 0.25 xoffset -20 yoffset -24
+            linear 0.25 xoffset -10 yoffset -24
+            linear 0.25 xoffset 0 yoffset -25
+            linear 0.25 xoffset 10 yoffset -24
+            linear 0.25 xoffset 20 yoffset -24
+            linear 0.25 xoffset 30 yoffset -23
+            linear 0.25 xoffset 40 yoffset -22
+            linear 0.25 xoffset 49 yoffset -21
+            linear 0.25 xoffset 58 yoffset -20
+            linear 0.25 xoffset 66 yoffset -18
+            linear 0.25 xoffset 74 yoffset -16
+            linear 0.25 xoffset 80 yoffset -14
+            linear 0.25 xoffset 86 yoffset -12
+            linear 0.25 xoffset 91 yoffset -10
+            linear 0.25 xoffset 95 yoffset -7
+            linear 0.25 xoffset 97 yoffset -5
+            linear 0.25 xoffset 99 yoffset -2
+            linear 0.25 xoffset 100 yoffset 0
+
             Null()
             repeat
         contains: # planet
@@ -224,41 +227,43 @@ image orbit:
             xalign 0.5 yalign 0.5
         contains: # moon infront
             "images/planet_scene/moon.png"
-            xalign 0.5 yalign 0.5 xoffset -440 yoffset 0
+            xalign 0.5 yalign 0.5 xoffset 100 yoffset 0
 
-            linear 0.5 xoffset -437 yoffset -11
-            linear 0.5 xoffset -430 yoffset -22
-            linear 0.5 xoffset -418 yoffset -33
-            linear 0.5 xoffset -401 yoffset -44
-            linear 0.5 xoffset -381 yoffset -55
-            linear 0.5 xoffset -355 yoffset -64
-            linear 0.5 xoffset -326 yoffset -73
-            linear 0.5 xoffset -294 yoffset -81
-            linear 0.5 xoffset -258 yoffset -88
-            linear 0.5 xoffset -219 yoffset -95
-            linear 0.5 xoffset -178 yoffset -100
-            linear 0.5 xoffset -135 yoffset -104
-            linear 0.5 xoffset -91 yoffset -107
-            linear 0.5 xoffset -45 yoffset -109
-            linear 0.5 xoffset 0 yoffset -110
-            linear 0.5 xoffset 45 yoffset -109
-            linear 0.5 xoffset 91 yoffset -107
-            linear 0.5 xoffset 135 yoffset -104
-            linear 0.5 xoffset 178 yoffset -100
-            linear 0.5 xoffset 219 yoffset -95
-            linear 0.5 xoffset 258 yoffset -88
-            linear 0.5 xoffset 294 yoffset -81
-            linear 0.5 xoffset 326 yoffset -73
-            linear 0.5 xoffset 355 yoffset -64
-            linear 0.5 xoffset 381 yoffset -55
-            linear 0.5 xoffset 401 yoffset -44
-            linear 0.5 xoffset 418 yoffset -33
-            linear 0.5 xoffset 430 yoffset -22
-            linear 0.5 xoffset 437 yoffset -11
-            linear 0.5 xoffset 440 yoffset 0
+            linear 0.25 xoffset 99 yoffset 2
+            linear 0.25 xoffset 97 yoffset 5
+            linear 0.25 xoffset 95 yoffset 7
+            linear 0.25 xoffset 91 yoffset 10
+            linear 0.25 xoffset 86 yoffset 12
+            linear 0.25 xoffset 80 yoffset 14
+            linear 0.25 xoffset 74 yoffset 16
+            linear 0.25 xoffset 66 yoffset 18
+            linear 0.25 xoffset 58 yoffset 20
+            linear 0.25 xoffset 49 yoffset 21
+            linear 0.25 xoffset 40 yoffset 22
+            linear 0.25 xoffset 30 yoffset 23
+            linear 0.25 xoffset 20 yoffset 24
+            linear 0.25 xoffset 10 yoffset 24
+            linear 0.25 xoffset 0 yoffset 25
+            linear 0.25 xoffset -10 yoffset 24
+            linear 0.25 xoffset -20 yoffset 24
+            linear 0.25 xoffset -30 yoffset 23
+            linear 0.25 xoffset -40 yoffset 22
+            linear 0.25 xoffset -49 yoffset 21
+            linear 0.25 xoffset -58 yoffset 20
+            linear 0.25 xoffset -66 yoffset 18
+            linear 0.25 xoffset -74 yoffset 16
+            linear 0.25 xoffset -80 yoffset 14
+            linear 0.25 xoffset -86 yoffset 12
+            linear 0.25 xoffset -91 yoffset 10
+            linear 0.25 xoffset -95 yoffset 7
+            linear 0.25 xoffset -97 yoffset 5
+            linear 0.25 xoffset -99 yoffset 2
+            linear 0.25 xoffset -100 yoffset 0
+
             Null()
-            pause 15.0
+            pause 7.5
             repeat
+
         xalign 0.5 yalign 0.5 xoffset 400 yoffset 0
 
         linear 0.5 xoffset 397 yoffset 10
@@ -458,13 +463,6 @@ label start:
 label menu_test:
     show bg_space
     show orbit at truecenter
-
-    '''
-    show sun_top at truecenter zorder 2
-    show sun_bottom at truecenter zorder 0
-    show blue_orb at ellipse_blue zorder 1
-    show moon at ellipse_moon
-    '''
 
     "Space..."
     return
