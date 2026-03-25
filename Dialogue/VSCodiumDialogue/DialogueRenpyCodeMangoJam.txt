@@ -1,0 +1,462 @@
+define fj = Character(_("Finbo Jones"), color="#c7281d")
+define h = Character(_("Spacehorse"), color="#805227")
+define c = Character(_("Cactus"), color="#2e6021")
+define ta = Character(_("moonshiner tally"), color="#e4d96f")
+define ti = Character(_("moonshiner tiny"), color="1b2690")
+define rtf = Character(_("random town folk"), color="#d3d3d3")
+define wm = Character(_("Wyatt Murdock"), color="#e94257")
+
+
+default book = False
+
+label start:
+
+    play music 
+
+    scene bg planets
+    with fade
+
+    On a wast, barren Planet, out in god knows where, something out of the ordinary was about to take place. 
+
+    Just another mornin on Planet Name of planet
+
+    Time for Finbo Jones to get up and going.
+
+    Every day, Finbo would be goin on bout his day, gettin up, makin some coffee, before makin his way up the planets lighthouse, which reached all the way out to space.
+
+    fj  "Another day, another coffee, gotta get steppin up those stairs soon, gotta check on that bulp"
+
+    (making coffee sequence - stepping up the lighthouse sequence)
+
+    fj  "All lookin good, lemme just turn on that switch"
+
+    (Light turns on, Finbo goes on to do every day tasks) 
+
+    Another day comes and Finbo goes about his day as always.
+
+    fj  "Another day, another coffee, gotta get steppin up those stairs soon, gotta check on that bulb"
+
+    (making coffee sequence - stepping up the lighthouse sequence)
+
+    fj  "All lookin good like every day, lemme just turn on that switch"
+
+    (nothing happens)
+
+    fj  "What in tunation?! Something's'off with that bulb, gotta take a closer look"
+
+    (checks lightbulb, it's broken)
+
+    fj  "That never happened before. What to do now?"
+
+    menu:
+
+            Finbo Jones decides to...
+
+            not check the bulb 
+
+                jump later
+
+            check the bulb
+
+                jump right away
+
+
+label later:
+
+
+    After a week of doing nothing a giant spaceship flies into the planet destroying it completely.
+
+
+    add planet destruction picture/gif
+
+
+label right away:
+
+    (checking unscrewed lightbulb, noticing something written on the bulb)
+
+    fj  "What's that? Something scribbled there. Can't read it tho. Guess I'll be headin out to find me someone who can read me that mumbo jumbo I`sppose"
+
+    (Unnecessary long sequence of Finbo going down stairs)
+
+    (makes his way outside notices a space horse standing there)
+
+    h   "Why the long face? Nyehehehe!"
+
+    fj  "Darn tootin, a space horse, pretty big those fellas, aren't they, might come in handy"
+
+    (mounts horse)
+
+    fj  "Go now!"
+
+    (Horse does not move)
+
+    fj  "Giddyup now!"
+
+    (Horse does not move)
+
+    fj  "Walk, now!"
+
+    (Horse does not move)
+
+    fj  "Alright then"
+
+
+    (Get's off horse and walks off)
+
+    So Finbo Jones, for the first time in his life, stepped out of his lighthouse area and made it to the dessert, nothing but sand can be seen, except for one thing, one singular cactus in the distance.
+
+    menu:
+
+        approach cactus 
+
+            jump cactus dialogue
+
+        approach moonshiners
+
+            jump moonshiners dialogue
+
+        approach random town
+
+            jump clown dialogue
+
+        approach saloon
+
+            jump saloon dialogue
+
+        approach woman 
+
+            jump woman dialogue
+
+        approach silent actor
+
+            jump silent actor dialogue
+
+
+label cactus dialogue:
+
+    So Finbo Jones decides to approaches the Cactus, not knowing what it is
+
+    fj  "Howdy there, ...mister? Are you by chance good with them words'n'stuff? I can't read, you see. My mama never tought me and ma dad was never arround."
+
+    (The cactus does not react but some drops seem to be running down it's top)
+
+    fj  "Havin trouble hearin? I said I need some help with the readin mister!"
+
+    c   "Lo siento, señor, no entiendo su idioma. Por favor, déjame en paz."
+
+    fj  "I wasn't askin for no riddles mister, just need some help with this bulb you see,..."
+
+   (Finbo shows the cactus the bulb)
+
+    c   "¿Por qué me enseñas esta bombilla? 
+
+    fj  "Maybe the sun has been messin with your mind, guess I'll have to try elsewhere..."
+
+    c   "¡Por favor, déjame en paz, criatura loca!
+
+    The cactus suddenly runs away and Finbo Jones now confused decides to continue his journey
+
+
+    menu:
+        
+        approach moonshiners
+            
+            jump moonshiners dialogue
+       
+        approach random town
+            
+            jump clown dialogue
+       
+        approach saloon
+            
+            jump saloon dialogue
+        
+        approach woman 
+            
+            jump woman dialogue
+        
+        approach silent actor
+            
+            jump silent actor dialogue
+
+
+label moonshiners dialogue:
+
+    Finbo Jones walks for a while before he spots two men laying on the ground next to a wagon which is carrying a lot of boxes filled with bottles, he chooses to approach them slowly.
+    One of them is very short but wide, he has no hair on his head but a long neckbeard, his way too large hat next to him on the ground. The other one is tall but very thin, he has long strawy hair and a big moustache
+    but no beard, he is slightly leaning on the wagon, most of his body laying on the ground, too, his hat is small and on his head
+
+    fj  "Howdy misters, are ya alive?"
+
+    ta  "Huh who what, nuts n beans! Oh howdydoodledo mista, Tally wake up!"
+
+    ti  "crackers n beer, what is it Tiny? Oh, hello there mista what bring ya here?"
+
+    fj  "Saw you lots laying around was wonderin if sumthin happened?"
+
+    ta  "Hyahyahya mista you be a fun folk"
+
+    ti  "fun folk ayhayhayh"
+
+    fj  "What's with all them bottles?"
+
+    ta  "Oh mista, dat be the good stuff"
+
+    ti  "The good stuff ayhayhayh!"
+
+    ta  "Stopit Tiny, so mista wanna try sum hyahya? Is goooood"
+
+    ti  "so goood ayhayhayh"
+
+    fj  "Is that some sorta booze?"
+
+    ta  "It be some booze alright, the bestest, first try is free"
+
+    ti  "Da best yes, try, try"
+
+    menu:
+
+        agree to drink moonshine
+
+            jump getting mugged
+
+        decline moonshine
+
+            jump angry moonshiners
+
+        trick moonshiners
+
+            jump outsmart moonshiners
+
+
+label getting mugged:
+
+    fj  "What gives, can't hurt right?"
+
+    Finbo Jones takes one bottle that Tally hands him, after taking a sip he starts feeling really weird and everything starts spinning, before he collapses he can hear the moonshiners last
+    words
+
+    ta  "We got us'n'other one Tiny hyahyahya"
+
+    ti  "another one, another one!"
+
+    ta "let's take his stuffs beat the bush"
+
+    ti  "take take bush"
+
+    Finbo Jones wakes up hours later with all his stuff but the bulb gone, where once the wagon was standing only one mere empty bottle is left, Finbo Jones has no choice but to continue his
+    journey like this
+
+
+ menu:
+     
+    
+     approach random town
+         
+         jump clown dialogue
+    
+     approach saloon
+         
+         jump saloon dialogue
+     
+     approach woman 
+         
+         jump woman dialogue
+     
+     approach silent actor
+         
+         jump silent actor dialogue
+
+
+label decline moonshine:
+
+    fj  "I dunno misters, am on a task, gotta find someone who can do da readin"
+
+    ta  "Come on mista, just one swig's'all we askin for"
+
+    ti  "One swig, one swig"
+
+    fj  "I think am good"
+
+    ta  "Hell's Bell's rude mista, you be tryin or not?"
+
+    ti  "rude rude"
+
+    fj  "I'll be goin now, you lot have a good day"
+
+    ta  "Don't be showing yar possum face round here no more!"
+
+    ti  "No more!"
+
+    ta  "shut yar trap Tiny! come on now"
+
+    So Finbo Jones leaves them behind before things escelate and continues his search
+
+
+menu:
+    
+   
+    approach random town
+        
+        jump clown dialogue
+   
+    approach saloon
+        
+        jump saloon dialogue
+    
+    approach woman 
+        
+        jump woman dialogue
+    
+    approach silent actor
+        
+        jump silent actor dialogue
+
+
+label outsmart moonshiners:
+
+    fj: "Alright then, you've convinced me, you two rascals, gimme one of dem bottles, what is it anyways?"
+
+    ta: "It ma and ma brothas selfmade finest mooshine ya see, good good stuffs"
+
+    ti  "Good good stuffs"
+
+    fj  "Sounds....good" 
+    
+    (pretends to take a swig but spits it out when they are not looking)
+
+    ta: "Huuuuh?! you good mista?"
+
+    fj: "I have to say, that stuff is pretty good"
+
+    ta  "Tiny look, mista did not fall'sleep, he can handle it"
+
+    ti  "mista can handle it"
+
+    (They both dance weirdly in joy)
+
+    ta  "Mista can handle it good, want some more? Take them bottles!"
+
+    ti  "Take em, take em!"
+
+    fj "You know, this might be worth a fortune, if ya sell it to some saloon"
+
+    [dialogue stays like this if not been to saloon yet, if have been to saloon, can recommend to them here]
+
+    ta  "Mista that's a mighty fine idea! Tiny come, let's take em to da saloon tiny!"
+
+    ti  " To tha saloon!"
+
+    ta  "Here, for ya mista, take em, free. Les go Tiny!" 
+    
+    (hands Finbo 2 bottles of moonshine)
+
+    fj  "Adios you lots"
+
+    The moonshiners leave hastily with their wagon, Finbo Jones sensing that he avoided some trouble makes his way back to his search
+
+
+menu:
+    
+   
+    approach random town
+        
+        jump clown dialogue
+   
+    approach saloon
+        
+        jump saloon dialogue
+    
+    approach woman 
+        
+        jump woman dialogue
+    
+    approach silent actor
+        
+        jump silent actor dialogue
+
+    approach saloon outside
+
+        jump moonshiners saloon dialogue
+
+
+label clown dialogue:
+
+    Finbo Jones decides to walk into a small town, all the folks staring at him while he walks around trying to find somebody to talk to, but none of the residents seem interested
+    in conversing with him
+
+    fj  "What a godforsaken town, and a unfriendly one at that."
+
+    (sudden beep sounds in the distance can be heard)
+
+    rtf "Goodness gracious, by the heavens, run! He's comin"
+
+    fj  "What y'all talkin bout?"
+
+    All the towns people hastily make their way into their houses and lock their doors, causing quite a ruckus, some daringly peekin out of the windows to see what might happen
+
+    (The beep noises get louder and closer, suddenly some shadowy figure can be seen on the horizon, slowly coming closer)
+
+    fj "Who walks there?"
+
+    wm  "What do we have here, someone walkin the streets like they own the place, right when the legendary Wyatt Murdock comes to town. Speak your name, boy?"
+
+    fj  "Finbo Jones, mister, that's what ma mama named me, may she rest in peas"
+
+    wm  "That's one awful name, makes me laugh" 
+    
+    (laughs but it sounds awfully funny, he is finally revealed, lookin like a clown in a cowboy outfit, red hair, clown make-up,
+     clownshoes and all) 
+     
+     [add more detailed description]
+
+     fj "Now that's a funny laugh, mister. And what's with dem clothes, lookin quite, how do folks say, fancy?"
+
+     wm "What did ya just say, boy? I will show you what's funcy" (wants to pull out gun but it is a bouquet of flowers squirting some water into his face) "urgh oh fudge!"
+
+     fj "Hahaha am loosin ma scales"
+     
+     wm "I will make ya loose all of em!" (face red in anger, clown make up now angry looking as well, aims gun at FJ and pulls trigger, but instead of a bullet going off a
+        flag comes out, reading 'Bang')
+     
+     fj "What's that now mister? What does it even say?"
+
+     wm "What do I know, I can't read this... Gol-dernit!, are ya makin fun of me, son?!"
+
+     fj "Well, that makes us two, can't read either mister, am lookin for someone who can, actually."
+
+     wm "Someone who can read all that mambo jambo? hmm... Ma cousin, he can read, he lives [behind that darn mountain] over there. Weird fella he is, makin no sense, with all dem stuffs he makes." 
+        
+        (points at a direction [that has several mountain like structures] in the distance)
+     
+     fj "Thank you kindly, I'm gonna moosey along then, tryin findin that cousin of yours, so long, mister why not mermaid"
+
+     wm "Dadgummit! It's Wyatt Murdock! You come back here!" (tries to follow but trips over own clownshoes) "CURSE YOU FINBO JONES!!!"
+
+     So Finbo makes his way out of that town and on to a new direction
+
+     menu:
+    
+    approach moonshiners
+        
+        jump moonshiners dialogue
+   
+    approach random town
+        
+        jump clown dialogue
+   
+    approach saloon
+        
+        jump saloon dialogue
+    
+    approach woman 
+        
+        jump woman dialogue
+    
+    approach silent actor
+        
+        jump silent actor dialogue    
+    
+    
+    
+
