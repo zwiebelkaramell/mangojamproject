@@ -1,0 +1,50 @@
+Finbo Jones makes it onto the mountain to find the entrance to a cave which seems to be an old mine
+
+fj: "Howdy, anyone in there?"
+
+i:  "LEAVE!"
+
+fj: "Im lookin for a fella called Bulbus Dumblebulb"
+
+i:  "Go away! No bulbus here!"
+
+fj: "God dangit, all that way for nothin. What am I gonna do with dat damn bulb now"
+
+i:  "Bulb? Did you say bulb?"
+
+fj: "Aye, that big ol bulb from the lighthouse"
+
+i:  "Lighthouse?! Roll that bulb in here at once! Don't dare to come in here!"
+
+fj: "Aight mister, rollin it in"
+
+i:  "Good heavens it is the lightbulb from the lighthouse. What happened to you? You were supposed to last 10 more years. 
+     My calculations couldn't be incorrect could they. hmm hmm. Let me see... yes"
+
+fj: "Mister, what's goin on in there? I don't have time for games..."
+
+i:  "Silence lighthousekeeper, I need to think, this will take some time"
+
+fj: "So, you must be Bulbus Dumblebulb after all?"
+
+i:  "Yes indeed, the one and only. Inventor and mechanic, proffessor of science. Master of the mountain mine. Now let me work"
+
+fj: "I guess, well I'll wait."
+
+i:  "Let me just open this, yes, aha, maybe put this here and... yes yes, oh and tweak it here mmm, and now we try this, nono, wrong, but what if I...."
+
+fj: "You sure that ya will be able to fix it?"
+
+i:  "Silence! Let me work! Now back to you bulb, now, here, yes and that, looking good, HA! I AM A GENIUS! AHAHAHA! I did it"
+
+fj: "You done it mister?"
+
+i:  "I will roll it out, it is fixed, working and should work for at least the next 50 years"
+
+fj: "Thank you kindly mister inventor"
+
+i:  "Now leave, and never NEVER come back!"
+
+fj: "Alright mister, geez, what a nut"
+
+So finally Finbo Jones found someone who could repair the lightbulb, he makes his way home to the lighthouse, making it up and putting in the repaired lightbulb, turning it on. His life coming back to how it used to be. 
