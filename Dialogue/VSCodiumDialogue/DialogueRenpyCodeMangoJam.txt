@@ -1,8 +1,6 @@
 define fj = Character(_("Finbo Jones"), color="#c7281d")
 define h = Character(_("Spacehorse"), color="#805227")
 define c = Character(_("Cactus"), color="#2e6021")
-define ta = Character(_("moonshiner tally"), color="#e4d96f")
-define ti = Character(_("moonshiner tiny"), color="#1b2690")
 define wm = Character(_("Wyatt Murdock"), color="#e94257")
 define s = Character(_("Scorpion barkeeper"), color="#7d6671")
 define i = Character(_("inventor"), color="#a3995a")
