@@ -35,8 +35,6 @@ init python:
             renpy.music.queue('audio/reload_fast.wav', channel="sound", clear_queue=True)
 
 #------------ CHARACTER DEFINITIONS -----------------------------------
-define fj = Character("Fishbo Jones", callback=gun_text_trick)
-
 define fj = Character("Finbo Jones", callback=text_trick, color="#c7281d")
 define h = Character("Spacehorse", callback=text_trick, color="#805227")
 define c = Character("Cactus", callback=text_trick, color="#2e6021")
@@ -56,7 +54,15 @@ image bg_planet = Image("images/Planet.png")
 image bg_saloon = Image("images/Saloon.png")
 
 # characters
-
+image finbo = Image("images/Characters/finbo_jones.png")
+image finbo_trace = Image("images/Characters/finbo_jones_trace.png")
+ = Image("images/Characters/.png")
+  = Image("images/Characters/.png")
+ = Image("images/Characters/.png")
+  = Image("images/Characters/.png")
+   = Image("images/Characters/.png")
+    = Image("images/Characters/.png")
+     = Image("images/Characters/.png")
 # other sprites
 image sun_top = Image("images/planet_scene/sun_top.png")
 image sun_bottom = Image("images/planet_scene/sun_bottom.png")
