@@ -34,21 +34,26 @@ init python:
         elif event == "slow_done" or event == "end":
             renpy.music.queue('audio/reload_fast.wav', channel="sound", clear_queue=True)
 
-'''
-    def zorder_workaround_1(trans, st, at, /):
-        renpy.show("blue_orb", at_list=[ellipse_1], zorder=2)
-
-    def zorder_workaround_2(trans, st, at, /):
-        renpy.show("blue_orb", at_list=[ellipse_2], zorder=0)
-'''
-
 #------------ CHARACTER DEFINITIONS -----------------------------------
 define fj = Character("Fishbo Jones", callback=gun_text_trick)
+
+define fj = Character("Finbo Jones", callback=text_trick, color="#c7281d")
+define h = Character("Spacehorse", callback=text_trick, color="#805227")
+define c = Character("Cactus", callback=text_trick, color="#2e6021")
+define ta = Character("Moonshiner Tally", callback=text_trick, color="#e4d96f")
+define ti = Character("Moonshiner Tiny", callback=text_trick, color="1b2690")
+define rtf = Character("Random Town Folk", callback=text_trick, color="#d3d3d3")
+define wm = Character("Wyatt Murdock", callback=gun_text_trick, color="#e94257")
 #----------------------------------------------------------------------
 
 #------------------ IMAGE DEFINITIONS ---------------------------------
 # backgrounds
 image bg_space = Image("images/planet_scene/space.png")
+image bg_lighthouse = Image("images/Lighthouse/Lighthouse_bg.png")
+image bg_lamp_on = Image("images/Lighthouse/Lighthouse_lamp_on.png")
+image bg_lamp_off = Image("images/Lighthouse/Lighthouse_lamp_off.png")
+image bg_planet = Image("images/Planet.png")
+image bg_saloon = Image("images/Saloon.png")
 
 # characters
 
@@ -303,135 +308,6 @@ image orbit:
 
 #---------------- TRANSFORMS -------------------------------------------
 
-transform ellipse_blue:
-    linear 0.0 xalign 0.5 yalign 0.5 xoffset 400 yoffset 0
-    block:
-        linear 0.5 xoffset 397 yoffset 10
-        linear 0.5 xoffset 391 yoffset 20
-        linear 0.5 xoffset 380 yoffset 30
-        linear 0.5 xoffset 365 yoffset 40
-        linear 0.5 xoffset 346 yoffset 49
-        linear 0.5 xoffset 323 yoffset 58
-        linear 0.5 xoffset 297 yoffset 66
-        linear 0.5 xoffset 267 yoffset 74
-        linear 0.5 xoffset 235 yoffset 80
-        linear 0.5 xoffset 199 yoffset 86
-        linear 0.5 xoffset 162 yoffset 91
-        linear 0.5 xoffset 123 yoffset 95
-        linear 0.5 xoffset 83 yoffset 97
-        linear 0.5 xoffset 41 yoffset 99
-        linear 0.5 xoffset 0 yoffset 100
-        linear 0.5 xoffset -41 yoffset 99
-        linear 0.5 xoffset -83 yoffset 97
-        linear 0.5 xoffset -123 yoffset 95
-        linear 0.5 xoffset -162 yoffset 91
-        linear 0.5 xoffset -199 yoffset 86
-        linear 0.5 xoffset -235 yoffset 80
-        linear 0.5 xoffset -267 yoffset 74
-        linear 0.5 xoffset -297 yoffset 66
-        linear 0.5 xoffset -323 yoffset 58
-        linear 0.5 xoffset -346 yoffset 49
-        linear 0.5 xoffset -365 yoffset 40
-        linear 0.5 xoffset -380 yoffset 30
-        linear 0.5 xoffset -391 yoffset 20
-        linear 0.5 xoffset -397 yoffset 10
-        linear 0.5 xoffset -400 yoffset 0
-        linear 0.5 xoffset -397 yoffset -10
-        linear 0.5 xoffset -391 yoffset -20
-        linear 0.5 xoffset -380 yoffset -30
-        linear 0.5 xoffset -365 yoffset -40
-        linear 0.5 xoffset -346 yoffset -50
-        linear 0.5 xoffset -323 yoffset -58
-        linear 0.5 xoffset -297 yoffset -66
-        linear 0.5 xoffset -267 yoffset -74
-        linear 0.5 xoffset -235 yoffset -80
-        linear 0.5 xoffset -199 yoffset -86
-        linear 0.5 xoffset -162 yoffset -91
-        linear 0.5 xoffset -123 yoffset -95
-        linear 0.5 xoffset -83 yoffset -97
-        linear 0.5 xoffset -41 yoffset -99
-        linear 0.5 xoffset 0 yoffset -100
-        linear 0.5 xoffset 41 yoffset -99
-        linear 0.5 xoffset 83 yoffset -97
-        linear 0.5 xoffset 123 yoffset -95
-        linear 0.5 xoffset 162 yoffset -91
-        linear 0.5 xoffset 199 yoffset -86
-        linear 0.5 xoffset 235 yoffset -80
-        linear 0.5 xoffset 267 yoffset -74
-        linear 0.5 xoffset 297 yoffset -66
-        linear 0.5 xoffset 323 yoffset -58
-        linear 0.5 xoffset 346 yoffset -50
-        linear 0.5 xoffset 365 yoffset -40
-        linear 0.5 xoffset 380 yoffset -30
-        linear 0.5 xoffset 391 yoffset -20
-        linear 0.5 xoffset 397 yoffset -10
-        linear 0.5 xoffset 400 yoffset 0
-        repeat
-
-transform ellipse_moon:
-    linear 0.0 xalign 0.5 yalign 0.5 xoffset 440 yoffset 0
-    block:
-        linear 0.5 xoffset 437 yoffset 11
-        linear 0.5 xoffset 430 yoffset 22
-        linear 0.5 xoffset 418 yoffset 33
-        linear 0.5 xoffset 401 yoffset 44
-        linear 0.5 xoffset 381 yoffset 54
-        linear 0.5 xoffset 355 yoffset 64
-        linear 0.5 xoffset 326 yoffset 73
-        linear 0.5 xoffset 294 yoffset 81
-        linear 0.5 xoffset 258 yoffset 88
-        linear 0.5 xoffset 219 yoffset 95
-        linear 0.5 xoffset 178 yoffset 100
-        linear 0.5 xoffset 135 yoffset 104
-        linear 0.5 xoffset 91 yoffset 107
-        linear 0.5 xoffset 45 yoffset 109
-        linear 0.5 xoffset 0 yoffset 110
-        linear 0.5 xoffset -45 yoffset 109
-        linear 0.5 xoffset -91 yoffset 107
-        linear 0.5 xoffset -135 yoffset 104
-        linear 0.5 xoffset -178 yoffset 100
-        linear 0.5 xoffset -219 yoffset 95
-        linear 0.5 xoffset -258 yoffset 88
-        linear 0.5 xoffset -294 yoffset 81
-        linear 0.5 xoffset -326 yoffset 73
-        linear 0.5 xoffset -355 yoffset 64
-        linear 0.5 xoffset -381 yoffset 54
-        linear 0.5 xoffset -401 yoffset 44
-        linear 0.5 xoffset -418 yoffset 33
-        linear 0.5 xoffset -430 yoffset 22
-        linear 0.5 xoffset -437 yoffset 11
-        linear 0.5 xoffset -440 yoffset 0
-        linear 0.5 xoffset -437 yoffset -11
-        linear 0.5 xoffset -430 yoffset -22
-        linear 0.5 xoffset -418 yoffset -33
-        linear 0.5 xoffset -401 yoffset -44
-        linear 0.5 xoffset -381 yoffset -55
-        linear 0.5 xoffset -355 yoffset -64
-        linear 0.5 xoffset -326 yoffset -73
-        linear 0.5 xoffset -294 yoffset -81
-        linear 0.5 xoffset -258 yoffset -88
-        linear 0.5 xoffset -219 yoffset -95
-        linear 0.5 xoffset -178 yoffset -100
-        linear 0.5 xoffset -135 yoffset -104
-        linear 0.5 xoffset -91 yoffset -107
-        linear 0.5 xoffset -45 yoffset -109
-        linear 0.5 xoffset 0 yoffset -110
-        linear 0.5 xoffset 45 yoffset -109
-        linear 0.5 xoffset 91 yoffset -107
-        linear 0.5 xoffset 135 yoffset -104
-        linear 0.5 xoffset 178 yoffset -100
-        linear 0.5 xoffset 219 yoffset -95
-        linear 0.5 xoffset 258 yoffset -88
-        linear 0.5 xoffset 294 yoffset -81
-        linear 0.5 xoffset 326 yoffset -73
-        linear 0.5 xoffset 355 yoffset -64
-        linear 0.5 xoffset 381 yoffset -55
-        linear 0.5 xoffset 401 yoffset -44
-        linear 0.5 xoffset 418 yoffset -33
-        linear 0.5 xoffset 430 yoffset -22
-        linear 0.5 xoffset 437 yoffset -11
-        linear 0.5 xoffset 440 yoffset 0
-        repeat
 #-----------------------------------------------------------------------
 
 # The game starts here.
