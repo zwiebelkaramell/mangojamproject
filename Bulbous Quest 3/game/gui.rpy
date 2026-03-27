@@ -53,6 +53,9 @@ define gui.hover_muted_color = '#005b7a'
 define gui.text_color = '#ffffff'
 define gui.interface_text_color = '#ffffff'
 
+## bootleg custom shit #########################################################
+
+define gui.text_outlines = [(3, "#000005", 0, 0)]
 
 ## Fonts and Font Sizes ########################################################
 
