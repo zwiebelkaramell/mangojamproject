@@ -1,0 +1,456 @@
+define fj = Character(_("Finbo Jones"), color="#c7281d")
+define h = Character(_("Spacehorse"), color="#805227")
+define c = Character(_("Cactus"), color="#2e6021")
+define ta = Character(_("moonshiner tally"), color="#e4d96f")
+define ti = Character(_("moonshiner tiny"), color="#1b2690")
+define rtf = Character(_("random town folk"), color="#d3d3d3")
+define wm = Character(_("Wyatt Murdock"), color="#e94257")
+define s = Character(_("Scorpion barkeeper"), color="#7d6671")
+define i = Character(_("inventor"), color="#a3995a")
+
+
+default book = False
+
+
+label start:
+
+
+
+
+    scene bg planets
+    with fade
+
+
+    "On a vast, barren Planet, out in god knows where, something out of the ordinary was about to take place." 
+
+
+    "Just another mornin on Planet Name of planet"
+
+
+    "Time for Finbo Jones to get up and going."
+
+
+    "Every day, Finbo would be goin on bout his day, gettin up, makin some coffee, before makin his way up the planets lighthouse, which reached all the way out to space."
+
+
+    fj  "Another day, another coffee, gotta get steppin up those stairs soon, gotta check on that bulp"
+
+
+    (making coffee sequence - stepping up the lighthouse sequence)
+
+
+    fj  "All lookin good, lemme just turn on that switch"
+
+
+    (Light turns on, Finbo goes on to do every day tasks) 
+
+
+    Another day comes and Finbo goes about his day as always.
+
+
+    fj  "Another day, another coffee, gotta get steppin up those stairs soon, gotta check on that bulb"
+
+
+    (making coffee sequence - stepping up the lighthouse sequence)
+
+
+    fj  "All lookin good like every day, lemme just turn on that switch"
+
+
+    (nothing happens)
+
+
+    fj  "What in tunation?! Something's'off with that bulb, gotta take a closer look"
+
+
+    (checks lightbulb, it's broken)
+
+
+    fj  "That never happened before. What to do now?"
+
+
+    menu:
+
+
+            Finbo Jones decides to...
+
+
+            not check the bulb 
+
+
+                jump later
+
+
+            check the bulb
+
+
+                jump right away
+
+
+
+
+label later:
+
+
+
+
+    "After a week of doing nothing a giant spaceship flies into the planet destroying it completely."
+
+
+
+
+    add planet destruction picture/gif
+
+
+
+
+label right away:
+
+
+    (checking unscrewed lightbulb, noticing something written on the bulb)
+
+
+    fj  "What's that? Something scribbled there. Can't read it tho. Guess I'll be headin out to find me someone who can read me that mumbo jumbo I`sppose"
+
+
+    (Unnecessary long sequence of Finbo going down stairs)
+
+
+    (makes his way outside notices a space horse standing there)
+
+
+    h   "Why the long face? Nyehehehe!"
+
+
+    fj  "Darn tootin, a space horse, pretty big those fellas, aren't they, might come in handy"
+
+
+    (mounts horse)
+
+
+    fj  "Go now!"
+
+
+    (Horse does not move)
+
+
+    fj  "Giddyup now!"
+
+
+    (Horse does not move)
+
+
+    fj  "Walk, now!"
+
+
+    (Horse does not move)
+
+
+    fj  "Alright then"
+
+
+
+
+    (Get's off horse and walks off)
+
+
+    "So Finbo Jones, for the first time in his life, stepped out of his lighthouse area and made it to the dessert, nothing but sand can be seen, except for one thing, one singular cactus in the distance
+
+
+    menu:
+
+
+        approach cactus 
+
+
+            jump cactus dialogu
+
+
+        approach random town
+
+
+            jump clown dialogue
+
+
+        approach saloon
+
+
+            jump saloon dialogue
+
+
+
+
+
+
+label cactus dialogue:
+
+
+    "So Finbo Jones decides to approaches the Cactus, not knowing what it is"
+
+
+    fj  "Howdy there, ...mister? Are you by chance good with them words'n'stuff? I can't read, you see. My mama never tought me and ma dad was never arround."
+
+
+    (The cactus does not react but some drops seem to be running down it's top)
+
+
+    fj  "Havin trouble hearin? I said I need some help with the readin mister!"
+
+
+    c   "Lo siento, señor, no entiendo su idioma. Por favor, déjame en paz."
+
+
+    fj  "I wasn't askin for no riddles mister, just need some help with this bulb you see,..."
+
+
+   (Finbo shows the cactus the bulb)
+
+
+    c   "¿Por qué me enseñas esta bombilla? 
+
+
+    fj  "Maybe the sun has been messin with your mind, guess I'll have to try elsewhere..."
+
+
+    c   "¡Por favor, déjame en paz, criatura loca!
+
+
+    "The cactus suddenly runs away and Finbo Jones now confused decides to continue his journey"
+
+
+
+
+    menu:
+    
+       
+        approach random town
+            
+            jump clown dialogue
+       
+        approach saloon
+            
+            jump saloon dialogue
+
+
+
+
+label saloon dialogue:
+
+
+    "Finbo Jones wanders around aimlessly for a while until he comes across a lonesome Saloon in the middle of nowhere in this dessert, it looks quite small and kinda shabby from the outside, it reads [N
+
+
+    "Once inside he realizes that this establishment isn't too shabby at all, it has a nice bar, some tables and seats, a piano in the corner next to the bar, but it seems pretty empty"
+
+
+    s   "Welcome to [Saloon name] mister, where the only thing that stings is our famous worm tequilla, sometimes even twice, what can I fetch ya?"
+
+
+    fj  "jumpin' jehoshaphat!, quite the man you are, mister, who made you?"
+
+
+    s   "The name is Pinch, can't say I've ever seen you around here, what gives?"
+
+
+    fj  "I be lookin for someone"
+
+
+    s   "Everbody be lookin for someone, gotta be more pacific, but also, can I intrest you in our famous dessert worm tequilla? First one's'on the house"
+
+
+    fj  "Can't say no to that"
+
+
+    s   "So whom you lookin for, mister?"
+
+
+    fj  "Been lookin for someone who can do the readin good."
+
+
+    s   "Tough task indeed, not many of dem readin folks left around here, lucky for you I do"
+
+
+    fj  "Heavens to betsy it must be my lucky day then, can you tell me whats written on that damn bulb of light right here good sir?"
+
+
+    s   "Says Bulbus Dumblebulb, no idea who that is, son"
+
+
+    fj  "Awe dang it all, where's a fish to find a whole pond for once"
+
+
+    s   "Yeah, I feel ya. Listen, sumthin else. You see, haven't been havin lots of folks comin round these days, well for many days... would it be too much to ask you fo sumthin mister?"
+
+
+    fj  "Spit it out barkeep" (takes a sip and spits it out immidiately [literally spitting it out]) "ain't used to worms beein in ma booze, sorry"
+
+
+    s   "Could you recommend this place to folks you come across by chance, it would mean lots to a ol'barkeep who's tryin to make a livin out here, for each new customer one free tequilla"
+
+
+    fj  "Got it barkeep, can keep dem worms tho. I be headin out then, so long"
+
+
+    s   "Happy trails"
+
+
+ menu:
+ 
+     approach random town
+         
+         jump clown dialogue
+
+
+label clown dialogue:
+
+
+    "Finbo Jones decides to walk into a small town, all the folks staring at him while he walks around trying to find somebody to talk to, but none of the residents seem interested in conversing with him
+
+
+    fj  "What a godforsaken town, and a unfriendly one at that."
+
+
+    (sudden beep sounds in the distance can be heard)
+
+
+    "All the towns people hastily make their way into their houses and lock their doors, causing quite a ruckus, some daringly peekin out of the windows to see what might happen"
+
+
+    (The beep noises get louder and closer, suddenly some shadowy figure can be seen on the horizon, slowly coming closer)
+
+
+    fj "Who walks there?"
+
+
+    wm  "What do we have here, someone walkin the streets like they own the place, right when the legendary Wyatt Murdock comes to town. Speak your name, boy?"
+
+
+    fj  "Finbo Jones, mister, that's what ma mama named me, may she rest in peas"
+
+
+    wm  "That's one awful name, makes me laugh" 
+    
+    (laughs but it sounds awfully funny, he is finally revealed, lookin like a clown in a cowboy outfit, red hair, clown make-up,
+     clownshoes and all) 
+     
+     [add more detailed description]
+
+
+     fj "Now that's a funny laugh, mister. And what's with dem clothes, lookin quite, how do folks say, fancy?"
+
+
+     wm "What did ya just say, boy? I will show you what's funcy" (wants to pull out gun but it is a bouquet of flowers squirting some water into his face) "urgh oh fudge!"
+
+
+     fj "Hahaha am loosin ma scales"
+     
+     wm "I will make ya loose all of em!" 
+     
+     "face red in anger, clown make up now angry looking as well, aims gun at fj and pulls trigger, but instead of a bullet going off a flag comes out, reading 'Bang'"
+     
+     fj "What's that now mister? What does it even say?"
+
+
+     wm "What do I know, I can't read this... Gol-dernit!, are ya makin fun of me, son?!"
+
+
+     fj "Well, that makes us two, can't read either mister, talked to a barkeep in a saloon he told me about Bulbus Dumblebulb, tryin to find him ever since."
+
+
+     wm "Someone who can read all that mambo jambo? Lucky you I guess. Bulbus Dumblebulb you say?  I came across that man. Weird fella he is, makin no sense, with all dem stuffs he makes. He lives up the
+
+
+     fj "Thank you kindly, I'm gonna moosey along then, tryin findin that inventor, so long, mister why not mermaid"
+
+
+     wm "Dadgummit! It's Wyatt Murdock! You come back here!" (tries to follow but trips over own clownshoes) "CURSE YOU FINBO JONES!!!"
+
+
+     "So Finbo makes his way out of that town and on to a new direction"
+
+
+     menu:
+    
+   
+    approach mountain
+        
+        jump inventor dialogue
+    
+
+
+label inventor dialogue:
+
+
+    "Finbo Jones makes it onto the mountain to find the entrance to a cave which seems to be an old mine"
+
+
+     fj "Howdy, anyone in there?"
+
+
+     i  "LEAVE!"
+
+
+     fj "Im lookin for a fella called Bulbus Dumblebulb"
+
+
+     i  "Go away! No bulbus here!"
+
+
+     fj "God dangit, all that way for nothin. What am I gonna do with dat damn bulb now"
+
+
+     i  "Bulb? Did you say bulb?"
+
+
+     fj "Aye, that big ol bulb from the lighthouse"
+
+
+     i  "Lighthouse?! Roll that bulb in here at once! Don't dare to come in here!"
+     
+     fj "Aight mister, rollin it in"
+
+
+     i  "Good heavens it is the lightbulb from the lighthouse. What happened to you? You were supposed to last 10 more years. My calculations couldn't be incorrect could they. hmm hmm. Let me see... yes"
+     
+     fj "Mister, what's goin on in there? I don't have time for games..."
+
+
+     i  "Silence lighthousekeeper, I need to think, this will take some time"
+
+
+     fj "So, you must be Bulbus Dumblebulb after all?"
+
+
+     i  "Yes indeed, the one and only. Inventor and mechanic, proffessor of science. Master of the mountain mine. Now let me work"
+
+
+     fj "I guess, well I'll wait."
+
+
+     i  "Let me just open this, yes, aha, maybe put this here and... yes yes, oh and tweak it here mmm, and now we try this, nono, wrong, but what if I...."
+     
+     fj "You sure that ya will be able to fix it?"
+
+
+     i  "Silence! Let me work! Now back to you bulb, now, here, yes and that, looking good, HA! I AM A GENIUS! AHAHAHA! I did it"
+
+
+     fj "You done it mister?"
+
+
+     i  "I will roll it out, it is fixed, working and should work for at least the next 50 years"
+
+
+     fj "Thank you kindly mister inventor"
+
+
+     i  "Now leave, and never NEVER come back!"
+
+
+     fj "Alright mister, geez, what a nut"
+
+
+     "So finally Finbo Jones found someone who could repair the lightbulb, he makes his way home to the lighthouse, making it up and putting in the repaired lightbulb, turning it on. His life coming back
+
+
+
