@@ -42,7 +42,7 @@ define ta = Character("Moonshiner Tally", callback=text_trick, color="#e4d96f")
 define ti = Character("Moonshiner Tiny", callback=text_trick, color="1b2690")
 define rtf = Character("Random Town Folk", callback=text_trick, color="#d3d3d3")
 define wm = Character("Wyatt Murdock", callback=gun_text_trick, color="#e94257")
-define sf = Character("?????", callback=gun_text_trick, color="#ffffff")
+define sf = Character("?????", callback=gun_text_trick, color="#000000")
 define s = Character("Scorpion Barkeeper", callback=text_trick, color="#7d6671")
 define i = Character("Inventor", callback=text_trick, color="#a3995a")
 
@@ -721,18 +721,19 @@ label start:
     return
 
 label menu:
- menu:
-        "What should I do?"
+scene bg_planet
+menu:
+    "What should I do?"
 
 
-        "approach cactus" if has_seen_cactus == False: 
-            jump cactus
+    "approach cactus" if has_seen_cactus == False: 
+        jump cactus
 
-        "approach a nearby town":
-            jump clown
+    "approach a nearby town":
+        jump clown
 
-        "approach the saloon": if has_inventor_name == False:
-            jump saloon
+    "approach the saloon" if has_inventor_name == False:
+        jump saloon
 
 
 label cactus:
@@ -788,10 +789,6 @@ label saloon:
     "Once inside he realizes that this establishment isn't too shabby at all, it has a nice bar, some tables and seats, a piano in the corner next to the bar, but it seems pretty empty"
 
     show barkeep with dissolve
-
-    pause 0.5
-
-    show barkeep_trace at center_left with dissolve
 
     s   "Welcome to The Saloon mister, where the only thing that stings is our famous worm tequilla, sometimes even twice, what can I fetch ya?"
 
@@ -927,7 +924,7 @@ label clown:
 
             fj "Well, that makes us two, can't read either mister, talked to a barkeep in a saloon he told me about Bulbus Dumblebulb, tryin to find him ever since."
 
-            wm "Someone who can read all that mambo jambo? Lucky you I guess. Bulbus Dumblebulb you say?
+            wm "Someone who can read all that mambo jambo? Lucky you I guess. Bulbus Dumblebulb you say?"
 
             wm "I came across that man. Weird fella he is, makin no sense, with all dem stuffs he makes. He lives up there on that mountain in a dark cave, cause he hates company"
 
@@ -937,7 +934,7 @@ label clown:
 
             "Wyatt stomps angrily after Finbo, but trips on his own comically large shoes"
 
-            mw "CURSE YOU FINBO JONES!!!!"
+            wm "CURSE YOU FINBO JONES!!!!"
 
             jump mountain
 
@@ -953,7 +950,7 @@ label clown:
 
             "Wyatt stomps angrily after Finbo, but trips on his own comically large shoes"
 
-            mw "CURSE YOU FINBO JONES!!!!"
+            wm "CURSE YOU FINBO JONES!!!!"
 
             $ has_clowned = True
 
@@ -1025,7 +1022,7 @@ label mountain:
 
     "So finally Finbo Jones found someone who could repair the lightbulb, he makes his way home to the lighthouse."
 
-    "Making it up and putting in the repaired lightbulb, turning it on. His life coming back to how it used to be.
+    "Making it up and putting in the repaired lightbulb, turning it on. His life coming back to how it used to be."
 
     window hide
     show bg_fin with fade
